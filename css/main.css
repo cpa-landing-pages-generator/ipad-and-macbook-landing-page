@@ -1,0 +1,259 @@
+@font-face {
+  font-family: "SF-Display";
+  src: url("fonts/sf-pro-display_regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "SF-Display-Semibold";
+  src: url("fonts/sf-pro-display_semibold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "SF-Regular";
+  src: url("fonts/sf-pro-text_regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "SF-Italic";
+  src: url("fonts/sf-pro-text_regular-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "SF-Semibold";
+  src: url("fonts/sf-pro-text_semibold.woff2") format("woff2");
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+body {
+  background-color: white;
+  color: black !important;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF-Regular", sans-serif !important;
+  letter-spacing: -.01em !important;
+}
+
+#FLI {
+  min-height: 80vh;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 -15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#CK {
+  height: 20vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-image: url(../img/555.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 -15px;
+}
+
+#FLI, #CK {
+  opacity: 0;
+}
+
+.form-control-lg {
+  font-size: 1.1rem !important;
+  text-align: center !important;
+}
+
+.S2, .S3, .CFCF, .S4, .S5, .S7, .CHOOSEPROCESSOR, .CHOOSEDISPLAY, .CHOOSEFINISH, .CHOOSEMEMORY, .CHOOSECONNECTIVITY, .COLORS {
+  display: none;
+}
+
+#S-CAPA, #S-COLOR, #S-CUSTOM1, #S-CUSTOM2 {
+  font-weight: 400 !important;
+}
+
+p, input {
+  font-family: "SF-Regular", sans-serif !important;
+  letter-spacing: -.01em !important;
+}
+
+.display {
+  font-family: "SF-Display", sans-serif !important;
+  letter-spacing: .011em !important;
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  font-family: "SF-Display", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+h4, h5, h6 {
+  font-family: "SF-Semibold", sans-serif !important;
+}
+
+.IPHONE-1 {
+  padding-bottom: 0.75rem;
+}
+
+.CAPA {
+  letter-spacing: .007em !important;
+  font-family: "SF-Display", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 2rem;
+}
+
+#CAPACITY-SMALL, #CAPACITY-BIG, #CAPACITY, #FINISH, #TYPE {
+  display: none;
+}
+
+.IP-CAPACITY {
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 0.75rem;
+  border: 2px solid rgba(216,216,216,0.5);
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+small {
+  letter-spacing: .012em !important;
+  font-family: "SF-Display", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1rem;
+}
+
+.IPHONE-2 {
+  border-radius: 4px;
+  padding: 12px;
+  border: 2px solid rgba(216,216,216,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.IP11, .IP11P, .IP11PM {
+  display: none;
+}
+
+.IP-COLOR {
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 2px solid rgba(216,216,216,0.5);
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.IPIP {
+  font-size: 0.825rem;
+  display: block;
+  letter-spacing: -.01em !important;
+  font-family: "SF-Regular", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.IP {
+  font-size: 0.75rem;
+  display: block;
+  letter-spacing: -.01em !important;
+  font-family: "SF-Regular", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.IPHONE-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  font-family: "SF-Regular", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.15rem;
+  width: 100%;
+}
+
+.IP-SELECTED {
+  border: 2px solid #0070c9 !important;
+}
+
+.CCC {
+    display: flex;
+    flex-direction: column;
+}
+
+.CCCCCCC {
+  display: flex;
+}
+
+.C {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 1rem;
+  margin: 0.25rem;
+}
+
+.CC {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin: 0.25rem;
+}
+
+button {
+  letter-spacing: -.022em !important;
+  font-weight: 400 !important;
+  font-family: "SF-Regular", sans-serif !important;
+  background-color: #0070c9 !important;
+  background: linear-gradient(#42a1ec,#0070c9) !important;
+  border-color: #07c !important;
+  border-radius: 4px !important;
+  padding: 6px 12px !important;
+  color: white !important;
+  transition-duration: 0.5s !important;
+}
+
+.IPAD-SPACE {
+  background-color: #abaeb1 !important;
+  color: #abaeb1 !important;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.IPAD-SILVER {
+  background-color: #dddfde !important;
+  color: #dddfde !important;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.MBAIR-SPACE {
+  background-color: #adb1b4 !important;
+  color: #adb1b4 !important;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.MBAIR-GOLD {
+  background-color: #f0ded2 !important;
+  color: #f0ded2 !important;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.MBAIR-SILVER {
+  background-color: #dee0df !important;
+  color: #dee0df !important;
+  border: 1px solid rgba(0,0,0,0.2);
+}
